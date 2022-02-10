@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7556130d-5039-471b-b105-52e798e45896" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/02-sso/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/SystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/service/UserserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/test/java/com/jt/DataSourceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/test/java/com/jt/UserMapperTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="A:\CGBLIBIVProjects\repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="A:\CGBLIBIVProjects\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="24rQdBLvlzkFGmXwAJK9b0Qr6ao" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CGBTEDU/第四阶段/nacos-server-1.4.1/nacos/bin/startup.cmd" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SystemApplication">
+    <configuration name="DataSourceTests.TestGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sso-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jt" />
+      <option name="MAIN_CLASS_NAME" value="com.jt.DataSourceTests" />
+      <option name="METHOD_NAME" value="TestGetConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTests.testSelectUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sso-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jt" />
+      <option name="MAIN_CLASS_NAME" value="com.jt.UserMapperTests" />
+      <option name="METHOD_NAME" value="testSelectUserByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTests.testSelectUserPermissions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sso-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jt" />
+      <option name="MAIN_CLASS_NAME" value="com.jt.UserMapperTests" />
+      <option name="METHOD_NAME" value="testSelectUserPermissions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nacos" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/../CGBTEDU/第四阶段/nacos-server-1.4.1/nacos/bin/startup.cmd" />
+      <option name="SCRIPT_OPTIONS" value="-m standalone" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sso-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jt.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DataSourceTests.TestGetConnection" />
+      <item itemvalue="JUnit.UserMapperTests.testSelectUserByUsername" />
+      <item itemvalue="JUnit.UserMapperTests.testSelectUserPermissions" />
+      <item itemvalue="Shell Script.nacos" />
+      <item itemvalue="Spring Boot.SystemApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="JUnit.UserMapperTests.testSelectUserPermissions" />
+        <item itemvalue="JUnit.UserMapperTests.testSelectUserByUsername" />
+        <item itemvalue="JUnit.DataSourceTests.TestGetConnection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7556130d-5039-471b-b105-52e798e45896" name="Default Changelist" comment="" />
+      <created>1644386310736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644386310736</updated>
+      <workItem from="1644386313132" duration="2340000" />
+      <workItem from="1644465743332" duration="3831000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644470689071">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644470689071" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1644470052653">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644470052653" />
+    <state x="374" y="417" key="FileChooserDialogImpl" timestamp="1644470672688">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="374" y="417" key="FileChooserDialogImpl/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644470672688" />
+    <state width="1292" height="478" key="GridCell.Tab.0.bottom" timestamp="1644471020661">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1292" height="478" key="GridCell.Tab.0.bottom/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
+    <state width="1292" height="478" key="GridCell.Tab.0.center" timestamp="1644471020661">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1292" height="478" key="GridCell.Tab.0.center/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
+    <state width="1292" height="478" key="GridCell.Tab.0.left" timestamp="1644471020661">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1292" height="478" key="GridCell.Tab.0.left/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
+    <state width="1292" height="478" key="GridCell.Tab.0.right" timestamp="1644471020661">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1292" height="478" key="GridCell.Tab.0.right/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
+    <state width="1292" height="478" key="GridCell.Tab.1.bottom" timestamp="1644471020661">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1292" height="478" key="GridCell.Tab.1.bottom/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
+    <state width="1292" height="478" key="GridCell.Tab.1.center" timestamp="1644471020661">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1292" height="478" key="GridCell.Tab.1.center/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
+    <state width="1292" height="478" key="GridCell.Tab.1.left" timestamp="1644471020661">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1292" height="478" key="GridCell.Tab.1.left/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
+    <state width="1292" height="478" key="GridCell.Tab.1.right" timestamp="1644471020661">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1292" height="478" key="GridCell.Tab.1.right/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
+    <state x="461" y="160" key="SettingsEditor" timestamp="1644468481205">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="160" key="SettingsEditor/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644468481205" />
+    <state x="334" y="176" key="new project wizard" timestamp="1644468677137">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="334" y="176" key="new project wizard/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644468677137" />
+  </component>
+</project>
