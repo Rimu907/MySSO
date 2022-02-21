@@ -20,17 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7556130d-5039-471b-b105-52e798e45896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02-sso/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/SystemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/java/com/jt/system/service/UserserviceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/test/java/com/jt/DataSourceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-sso/sso-system/src/test/java/com/jt/UserMapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-auth/src/main/java/com/jt/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-auth/src/main/java/com/jt/auth/config/Oauth2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-auth/src/main/java/com/jt/auth/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-auth/src/main/java/com/jt/auth/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-auth/src/main/java/com/jt/auth/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-auth/src/main/java/com/jt/auth/service/RemoteUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-auth/src/main/java/com/jt/auth/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-sso/sso-auth/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/access_log.2022-02-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/access_log.2022-02-10.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -88,7 +90,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApplication">
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
     <configuration name="DataSourceTests.TestGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sso-system" />
       <extension name="coverage">
@@ -148,6 +150,19 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sso-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jt.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="sso-system" />
       <extension name="coverage">
@@ -167,9 +182,11 @@
       <item itemvalue="JUnit.UserMapperTests.testSelectUserPermissions" />
       <item itemvalue="Shell Script.nacos" />
       <item itemvalue="Spring Boot.SystemApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AuthApplication" />
         <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="JUnit.UserMapperTests.testSelectUserPermissions" />
         <item itemvalue="JUnit.UserMapperTests.testSelectUserByUsername" />
@@ -188,7 +205,9 @@
       <option name="presentableId" value="Default" />
       <updated>1644386310736</updated>
       <workItem from="1644386313132" duration="2340000" />
-      <workItem from="1644465743332" duration="3831000" />
+      <workItem from="1644465743332" duration="9234000" />
+      <workItem from="1644539689163" duration="3744000" />
+      <workItem from="1645404484013" duration="491000" />
     </task>
     <servers />
   </component>
@@ -205,8 +224,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="90" key="#Project_Structure" timestamp="1644471351512">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="440" y="90" key="#Project_Structure/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471351512" />
     <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644470689071">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -219,45 +243,53 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="374" y="417" key="FileChooserDialogImpl/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644470672688" />
-    <state width="1292" height="478" key="GridCell.Tab.0.bottom" timestamp="1644471020661">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1023" height="238" key="GridCell.Tab.0.bottom" timestamp="1644490543516">
+      <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1292" height="478" key="GridCell.Tab.0.bottom/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
-    <state width="1292" height="478" key="GridCell.Tab.0.center" timestamp="1644471020661">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1023" height="238" key="GridCell.Tab.0.bottom/0.0.1536.912@0.0.1536.912" timestamp="1644490543516" />
+    <state width="1292" height="205" key="GridCell.Tab.0.bottom/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471492277" />
+    <state width="1023" height="238" key="GridCell.Tab.0.center" timestamp="1644490543516">
+      <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1292" height="478" key="GridCell.Tab.0.center/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
-    <state width="1292" height="478" key="GridCell.Tab.0.left" timestamp="1644471020661">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1023" height="238" key="GridCell.Tab.0.center/0.0.1536.912@0.0.1536.912" timestamp="1644490543516" />
+    <state width="1292" height="205" key="GridCell.Tab.0.center/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471492277" />
+    <state width="1023" height="238" key="GridCell.Tab.0.left" timestamp="1644490543516">
+      <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1292" height="478" key="GridCell.Tab.0.left/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
-    <state width="1292" height="478" key="GridCell.Tab.0.right" timestamp="1644471020661">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1023" height="238" key="GridCell.Tab.0.left/0.0.1536.912@0.0.1536.912" timestamp="1644490543516" />
+    <state width="1292" height="205" key="GridCell.Tab.0.left/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471492277" />
+    <state width="1023" height="238" key="GridCell.Tab.0.right" timestamp="1644490543516">
+      <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1292" height="478" key="GridCell.Tab.0.right/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
-    <state width="1292" height="478" key="GridCell.Tab.1.bottom" timestamp="1644471020661">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1023" height="238" key="GridCell.Tab.0.right/0.0.1536.912@0.0.1536.912" timestamp="1644490543516" />
+    <state width="1292" height="205" key="GridCell.Tab.0.right/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471492277" />
+    <state width="1023" height="238" key="GridCell.Tab.1.bottom" timestamp="1644490543516">
+      <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1292" height="478" key="GridCell.Tab.1.bottom/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
-    <state width="1292" height="478" key="GridCell.Tab.1.center" timestamp="1644471020661">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1023" height="238" key="GridCell.Tab.1.bottom/0.0.1536.912@0.0.1536.912" timestamp="1644490543516" />
+    <state width="1292" height="205" key="GridCell.Tab.1.bottom/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471492278" />
+    <state width="1023" height="238" key="GridCell.Tab.1.center" timestamp="1644490543516">
+      <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1292" height="478" key="GridCell.Tab.1.center/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
-    <state width="1292" height="478" key="GridCell.Tab.1.left" timestamp="1644471020661">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1023" height="238" key="GridCell.Tab.1.center/0.0.1536.912@0.0.1536.912" timestamp="1644490543516" />
+    <state width="1292" height="205" key="GridCell.Tab.1.center/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471492278" />
+    <state width="1023" height="238" key="GridCell.Tab.1.left" timestamp="1644490543516">
+      <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1292" height="478" key="GridCell.Tab.1.left/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
-    <state width="1292" height="478" key="GridCell.Tab.1.right" timestamp="1644471020661">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1023" height="238" key="GridCell.Tab.1.left/0.0.1536.912@0.0.1536.912" timestamp="1644490543516" />
+    <state width="1292" height="205" key="GridCell.Tab.1.left/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471492277" />
+    <state width="1023" height="238" key="GridCell.Tab.1.right" timestamp="1644490543516">
+      <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1292" height="478" key="GridCell.Tab.1.right/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471020661" />
+    <state width="1023" height="238" key="GridCell.Tab.1.right/0.0.1536.912@0.0.1536.912" timestamp="1644490543516" />
+    <state width="1292" height="205" key="GridCell.Tab.1.right/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471492278" />
     <state x="461" y="160" key="SettingsEditor" timestamp="1644468481205">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="160" key="SettingsEditor/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644468481205" />
-    <state x="334" y="176" key="new project wizard" timestamp="1644468677137">
+    <state x="334" y="176" key="new project wizard" timestamp="1644471230166">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="334" y="176" key="new project wizard/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644468677137" />
+    <state x="334" y="176" key="new project wizard/1920.0.1536.922/0.0.1920.1032@0.0.1920.1032" timestamp="1644471230166" />
   </component>
 </project>
